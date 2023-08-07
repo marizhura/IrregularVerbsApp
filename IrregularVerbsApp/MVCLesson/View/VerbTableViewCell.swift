@@ -15,12 +15,10 @@ final class VerbTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        print("awakeFromNib")
     }
     
     override func prepareForReuse() {
         super.prepareForReuse()
-        print("prepareForReuse")
     }
     
     func configure(for verb: Verb) {
